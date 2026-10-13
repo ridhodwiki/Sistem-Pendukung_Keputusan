@@ -1,0 +1,33 @@
+# ============================================
+# .gitignore — SPK WSM Tugas Akhir
+# ============================================
+
+# Credential database — JANGAN di-commit
+koneksi.php
+
+# File debug/testing — berbahaya jika publik
+test.php
+db_check.php
+check_admin_pass.php
+
+# File SQL dengan detail struktur internal
+database_update.sql
+
+# Dokumentasi internal
+*.txt
+CHANGELOG_*.md
+README_PERBAIKAN.txt
+UPDATE_MULTI_USER_RATING.txt
+
+# Environment & dependency
+.env
+.env.*
+vendor/
+node_modules/
+
+# IDE & OS artifacts
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
+*.log
