@@ -126,6 +126,12 @@ if ($is_admin) {
 </head>
 <body>
 
+<div class="mobile-topbar">
+    <button class="btn btn-primary sidebar-toggle" aria-label="Buka menu navigasi" aria-expanded="false"><i class="fas fa-bars"></i></button>
+    <span class="brand">SPK TEMA TA</span>
+</div>
+<div class="sidebar-overlay"></div>
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-3 p-0 sidebar shadow">
@@ -330,6 +336,7 @@ if ($is_admin) {
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/sidebar.js"></script>
 <script>
     function updateTime() {
         const now = new Date();

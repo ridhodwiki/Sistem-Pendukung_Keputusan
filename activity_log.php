@@ -132,6 +132,12 @@ $actions = ['LOGIN', 'LOGIN_FAILED', 'LOGOUT', 'ADD_KRITERIA', 'DELETE_KRITERIA'
 </head>
 <body>
 
+<div class="mobile-topbar">
+    <button class="btn btn-primary sidebar-toggle" aria-label="Buka menu navigasi" aria-expanded="false"><i class="fas fa-bars"></i></button>
+    <span class="brand">SPK TEMA TA</span>
+</div>
+<div class="sidebar-overlay"></div>
+
 <div class="sidebar shadow">
     <div class="p-4 text-center">
         <i class="fas fa-history fa-3x mb-3 text-warning"></i>
@@ -267,6 +273,7 @@ $actions = ['LOGIN', 'LOGIN_FAILED', 'LOGOUT', 'ADD_KRITERIA', 'DELETE_KRITERIA'
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/sidebar.js"></script>
 <script>
     document.getElementById('totalLogs').textContent = document.querySelectorAll('tbody tr').length;
 </script>
